@@ -7,7 +7,7 @@ Task:
 	
 Engineer:
 
-	Kogut Ivan ФИИТ-101 
+	Kogut Ivan FIIT-101 
 	
 Description:
 
@@ -67,7 +67,8 @@ To use KV-Storage write one of the positional arguments
 
 
 
-usage: KV-Storage.py add [-h] file key value
+usage: 
+- KV-Storage.py add [-h] file key value
 
 Command to add element(not file) in KV-Storage
 
@@ -80,7 +81,8 @@ Command to add element(not file) in KV-Storage
 	  -h, --help  show this help message and exit
 
 
-usage: KV-Storage.py add_file [-h] file key path_to_file
+usage: 
+- KV-Storage.py add_file [-h] file key path_to_file
 
 Command to add file in KV-Storage
 
@@ -93,7 +95,8 @@ Command to add file in KV-Storage
 	  -h, --help    show this help message and exit
 
 
-usage: KV-Storage.py get [-h] file key
+usage: 
+- KV-Storage.py get [-h] file key
 
 Command to get value(not file) by key
 
@@ -105,7 +108,8 @@ Command to get value(not file) by key
 	  -h, --help  show this help message and exit
 
 
-usage: KV-Storage.py get_file [-h] data_file key path_to_output_file
+usage: 
+- KV-Storage.py get_file [-h] data_file key path_to_output_file
 
 Command to get the content of file in KV-Storage. This content goes to your
 specified file. If file doesn't exist, programme will create it
@@ -119,7 +123,8 @@ specified file. If file doesn't exist, programme will create it
 	  -h, --help           show this help message and exit
 
 
-usage: KV-Storage.py contains [-h] file key
+usage: 
+- KV-Storage.py contains [-h] file key
 
 Command to find out if element with such key is in KV-Storage or not
 
@@ -131,7 +136,8 @@ Command to find out if element with such key is in KV-Storage or not
 	  -h, --help  show this help message and exit
 
 
-usage: KV-Storage.py erase [-h] file key
+usage: 
+- KV-Storage.py erase [-h] file key
 
 Command to erase element with such key from KV-Storage
 
@@ -143,7 +149,8 @@ Command to erase element with such key from KV-Storage
 	  -h, --help  show this help message and exit
 
 
-usage: KV-Storage.py clear [-h] file
+usage: 
+- KV-Storage.py clear [-h] file
 
 Command to clear the content of data file
 
@@ -154,7 +161,8 @@ Command to clear the content of data file
 	  -h, --help  show this help message and exit
 
 
-usage: KV-Storage.py change [-h] file key {file,data} value
+usage: 
+- KV-Storage.py change [-h] file key {file,data} value
 
 Command to change value of the element with such key
 
@@ -168,7 +176,9 @@ Command to change value of the element with such key
 	  -h, --help   show this help message and exit
 
 
-usage: KV-Storage.py check_validity_of_file [-h] file (KV-Storage.py cvf [-h] file)
+usage: 
+- KV-Storage.py check_validity_of_file [-h] file
+- KV-Storage.py cvf [-h] file
 
 Command to check if specified file is a KV-Storage file(data file)
 
@@ -179,7 +189,8 @@ Command to check if specified file is a KV-Storage file(data file)
 	  -h, --help  show this help message and exit
 
 
-usage: KV-Storage.py add_package [-h] [-f [CSV_FILE]] data_file
+usage: 
+- KV-Storage.py add_package [-h] [-f [CSV_FILE]] data_file
 
 Command to add package of items to KV-Storage
 
@@ -191,7 +202,8 @@ Command to add package of items to KV-Storage
 	  -f [CSV_FILE]  if you want to read queries from csv file
 
 
-usage: KV-Storage.py get_all_keys [-h] data_file
+usage: 
+- KV-Storage.py get_all_keys [-h] data_file
 
 Command to get list of all keys in KV-Storage
 
@@ -202,7 +214,8 @@ Command to get list of all keys in KV-Storage
 	  -h, --help  show this help message and exit
 
 
-usage: KV-Storage.py init [-h] data_file
+usage: 
+- KV-Storage.py init [-h] data_file
 
 Command to create new KV-Storage file
 
