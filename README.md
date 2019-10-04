@@ -1,13 +1,16 @@
 # KV-Storage
 Own key-value database in which information is stored in byte-files
+
 Task: 
+
 	Key Value Storage
-Engineer: 
+	
+Engineer:
+
 	Kogut Ivan ФИИТ-101 
-Задача: 
-	Key Value Storage
-Автор задачи: 
-	Когут Иван Валентинович FIIT-101 
+	
+Description:
+
 	Example of executing programme:
 				python KV-Storage.py add data.bin Ivan Kogut
 	In this version only 26214400 bytes are available for storing data. All data is located in one binary file (which you initialized).
