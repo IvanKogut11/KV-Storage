@@ -168,8 +168,7 @@ Command to change value of the element with such key
 	  -h, --help   show this help message and exit
 
 
-usage: KV-Storage.py check_validity_of_file [-h] file
-       KV-Storage.py cvf [-h] file
+usage: KV-Storage.py check_validity_of_file [-h] file (KV-Storage.py cvf [-h] file)
 
 Command to check if specified file is a KV-Storage file(data file)
 
